@@ -49,4 +49,4 @@ for (const file of eventFiles) {
 }
 
 
-client.login(require('./.env').token);
+client.login(process.env.TOKEN);
