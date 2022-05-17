@@ -86,7 +86,7 @@ module.exports = {
         }
         
         if(message.content == ".5"){
-            message.author.send("Redux .5 password - `Pnr4-2846249-Ksj3bva`")
+            message.author.send("Reux .5 password - `Pnr4-2846249-Ksj3bva`")
             }
         
         if(message.content == ".6"){
