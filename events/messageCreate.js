@@ -96,6 +96,9 @@ module.exports = {
         if(message.content == ".7"){
             message.author.send("Redux .7 password - `sdf64rw-gdbx2mzq-lsrdx07`")
                         }
+        if(message.content == ".8"){
+            message.author.send("Redux .8 password - `yrgvb-907sph84s-wrs`")
+                                        }
             }
 
     
