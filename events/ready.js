@@ -42,12 +42,12 @@ module.exports = {
         const channel = await g.channels.cache.get('908004824602259486')
         const sendMessage = await channel.send({
          
-            content: 'Server Updates, please read', //Message to be sent as a text
+            content: 'Important Server Information', //Message to be sent as a text
             embeds: [{
             title: 'We have changed the system, now everythings better', 
-            description: '**• Changed password system for modifications**\n\nFor Redux Password now you have to dm the bot. (You need to write **Redux Pass** to the bot.)\n\n• Need help or have a question? Contact <#921883672150413323> they will point you in the appropriate direction for resolving your game.',
+            description: '**`🔒` • Changed password system for modifications**\n\nFor Redux Password now you have to write to the bot.\n\n`🆘` **• Need help or have a question?** Contact <#921883672150413323> they will point you in the appropriate direction for resolving your game.',
             color: '#ffffff',
-            image: {url: ''}, 
+            image: {url: 'https://cdn.discordapp.com/attachments/971238538379157534/987078007862730752/IMG_7202.gif'}, 
             footer: { text: 'The server Administration wishes everyone a great day' } ,
             author: ''
             
