@@ -98,12 +98,12 @@ module.exports = {
                         }
         if(message.content == ".8"){
             message.author.send("Redux .8 password - `yrgvb-907sph84s-wrs`")
-        
+        }
         if(message.content == ".9"){
-                message.author.send("Redux .9 password - `klb009-dasxc83-kye742`")
+            message.author.send("Redux .9 password - `klb009-dasxc83-kye742`")
                                         }
             }
-        }
+        
     
     }
     
