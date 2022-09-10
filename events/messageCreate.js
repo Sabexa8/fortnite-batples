@@ -77,7 +77,7 @@ module.exports = {
 
 //DM Script for the Bot
        if(message.content == "Redux Pass"){
-        message.author.send("**Which redux do you need?** \n\n**Какой редукс вам нужен?**\n\n```Write .4 or .5 or .6 or .7 or .8``` ")
+        message.author.send("**Which redux do you need?** \n\n**Какой редукс вам нужен?**\n\n```Write .4 or .5 or .6 or .7 or .8 or .9``` ")
         }
     
 
@@ -98,9 +98,12 @@ module.exports = {
                         }
         if(message.content == ".8"){
             message.author.send("Redux .8 password - `yrgvb-907sph84s-wrs`")
+        
+        if(message.content == ".9"){
+                message.author.send("Redux .9 password - `klb009-dasxc83-kye742`")
                                         }
             }
-
+        }
     
     }
     
