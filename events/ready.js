@@ -47,7 +47,7 @@ module.exports = {
             title: 'We have changed the system, now everythings better', 
             description: '**`🔒` • Changed password system for modifications**\n\nFor Redux Password now you have to write to the bot.\n\n`🆘` **• Need help or have a question?** Contact <#921883672150413323> they will point you in the appropriate direction for resolving your game.',
             color: '#ffffff',
-            image: {url: 'https://cdn.discordapp.com/attachments/971238538379157534/987078007862730752/IMG_7202.gif'}, 
+            image: {url: 'https://cdn.discordapp.com/attachments/971238538379157534/1018598214938669146/Serv_Banner_1.gif'}, 
             footer: { text: 'The server Administration wishes everyone a great day' } ,
             author: ''
             
