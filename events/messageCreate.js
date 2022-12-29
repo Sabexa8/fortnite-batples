@@ -102,6 +102,9 @@ module.exports = {
         if(message.content == ".9"){
             message.author.send("Redux .9 password - `klb009-dasxc83-kye742`")
                                         }
+        if(message.content == "1.0"){
+            message.author.send("Redux 1.0 password - `LS973-bghKJd-9634G`")
+                                         }
             }
         
     
