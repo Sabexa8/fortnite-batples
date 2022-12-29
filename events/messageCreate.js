@@ -77,7 +77,7 @@ module.exports = {
 
 //DM Script for the Bot
        if(message.content == "Redux Pass"){
-        message.author.send("**Which redux do you need?** \n\n**Какой редукс вам нужен?**\n\n```Write .4 or .5 or .6 or .7 or .8 or .9``` ")
+        message.author.send("**Which redux do you need?** \n\n**Какой редукс вам нужен?**\n\n```Write .4 or .5 or .6 or .7 or .8 or .9 or 1.0``` ")
         }
     
 
