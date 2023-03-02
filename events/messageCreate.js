@@ -5,10 +5,10 @@ module.exports = {
     once: false,
     execute(message, client) {
         
-        //Code For #Your-Ideas 
+        ///Code For #Your-Ideas 
         if(message.author.bot) return;
-        if(message.channel.id == "1080682434707861554"){ 
-        if(message.member.roles.cache.get ('813292425123856404'))  {
+        if(message.channel.id == "957742360576524328"){ 
+        if(message.member.roles.cache.get ('908005181524934706'))  {
             
               const embed = new Discord.MessageEmbed()
               
@@ -21,16 +21,16 @@ module.exports = {
               
 
               .then(msg =>{ setTimeout(() => message.delete(), 1100)
-                  msg.react("<a:thumbsup:1080685465105076244>");
-                  msg.react("<a:thumbsdown:1080685463452516432>");
+                  msg.react("<a:thumbsup:950551889609641994>");
+                  msg.react("<a:thumbsdown:950551877349699684>");
                 })
             } 
         }
-        //Ends Here
+        ///Ends Here
 
-        //Screenshot Code
+        ///SCREENSHOT CODE
         if(message.author.bot) return;
-        if(message.channel.id === "1080683090722173051") {
+        if(message.channel.id === "950542814092091482") {
         if(message.content === "1"){
    
              } else {
@@ -52,50 +52,48 @@ module.exports = {
         embed.setImage("attachment://img.png")
         message.channel.send({ 
         embeds: [embed] , files: [att]}).then(msg =>{ setTimeout(() => message.delete(), 1000)
-        msg.react("<a:thumbsup:1080685465105076244>");
-        msg.react("<a:thumbsdown:1080685463452516432>");                                             
+        msg.react("<a:thumbsup:950551889609641994>");
+        msg.react("<a:thumbsdown:950551877349699684>");                                             
                                                   })
        .catch((err) => console.log(err));
                                                 } }
-        //End
+        ///ENDS HERE
         
-        //Help Reply
-        if  (message.channel.id == "813289254654443551") {
+        if  (message.channel.id == "908004824602259486") {
         if  (message.content.includes('know') || message.content.includes('help') || message.content.includes('how') && !message.author.bot)
                 
-        message.reply('If you need assistance, Create a ticket <#866921342229282816>')
+        message.reply('If you need assistance, Create a ticket <#921883672150413323>')
                   .then(() => console.log(`Replied to message "${message.content}"`))
                   .catch(console.error); }
                   
-        //End
+        if  (message.channel.id == "908004824602259486") {
+        if  (message.content.includes('pamashi') || message.content.includes('xelp') || message.content.includes('хелп') || message.content.includes('как') || message.content.includes('Как') || message.content.includes('не работает') || message.content.includes('დამეხმარეთ') || message.content.includes('помощь') && !message.author.bot)
+            
+        message.reply('Создайте тикет, если вам нужна помощь <#921883672150413323>')
+              .then(() => console.log(`Replied to message "${message.content}"`))
+              .catch(console.error); }
+//END
 
 
-        //DM Script for the Bot
-        if(message.content == "Help" || message.content == "help"){
-        message.author.send("What is your question? \n Type: `Server info` \n`Creating Ticket` \n`Application Filling` \n`Donations`")
+//DM Script for the Bot
+       if(message.content == "Redux Pass"){
+        message.author.send("**Which redux do you need?** \n\n**Какой редукс вам нужен?**\n\n```Write .4 or .5 or .6``` ")
         }
     
 
-        if(message.content == "Server info"){
-        message.author.send("`In order to join TopGear RP. You can Type TopGear RP In the search bar, or you can directly connect by doing. F8, connect 181.214.240.161:30120 \nThank you for choosing TopGear!`")
+        if(message.content == ".4"){
+        message.author.send("Redux .4 password - `BioN292PaS2-02xz1-42SeA`")
         }
         
-        if(message.content == "Creating Ticket"){
-            message.author.send("`If you need assistance, Create a ticket` <#866921342229282816>")
+        if(message.content == ".5"){
+            message.author.send("Redux .5 password - `Pnr4-2846249-Ksj3bva`")
             }
         
-        if(message.content == "Application Filling"){
-            message.author.send("")
+        if(message.content == ".6"){
+            message.author.send("Redux .6 password - `x8Nj9fwr-naQ41k-y2Auh7`")
                 }
-        
-        if(message.content == "Donations"){
-            message.author.send("")
-                        }
-        
             }
-        
-        //End Here
-        
+
     
     }
     

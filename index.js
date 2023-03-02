@@ -1,7 +1,6 @@
 require("dotenv").config();
-const fs = require("fs");
-const Discord = require('discord.js');
-require('dotenv').config();
+const fs = require("fs")
+const Discord = require('discord.js')
 
 const { Client, Intents, Collection } = require("discord.js");
 
@@ -19,7 +18,7 @@ const client = new Client({
 
 //RICH PRESENCE-ACTIVITY
 client.on("ready", async() => {
-client.user.setActivity({ name: "Top Gear RP", type: "PLAYING" })
+client.user.setActivity({ name: "LS Mods", type: "LISTENING" })
 })
 
 const commandFiles = fs.readdirSync("./commands").filter(file => file.endsWith (".js"));
@@ -49,4 +48,4 @@ for (const file of eventFiles) {
 }
 
 
-client.login(process.env.TOKEN);
+client.login(require('./config.json').token);

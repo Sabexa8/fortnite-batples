@@ -8,7 +8,7 @@ module.exports = {
     name: "ready",
     once: true,
     execute(client, commands) {
-        console.log("The Bot is Online")
+        console.log("The LS-Bot is Online")
         const CLIENT_ID = client.user.id;
 
         const rest = new REST ({
@@ -38,17 +38,17 @@ module.exports = {
         //setTimeout
         setInterval(async () => {
          
-        let g = await client.guilds.cache.get('813288031905382410')
-        const channel = await g.channels.cache.get('813289254654443551')
+        let g = await client.guilds.cache.get('907999231879565342')
+        const channel = await g.channels.cache.get('908004824602259486')
         const sendMessage = await channel.send({
          
-            content: 'Important Server Information', //Message to be sent as a text
+            content: 'Server Updates, please read', //Message to be sent as a text
             embeds: [{
-            title: 'Why choose TopGear? The best RP server on the platform.', 
-            description: '**`📢` • How to start playing**\n\nIn order to join TopGear RP. You can Type "TopGear RP" In the search bar, or you can directly connect by doing. " F8, connect 181.214.240.161:30120" \n\n`🆘` **• Need help or have a question?** If you need assistance, Create a ticket <#866921342229282816>',
+            title: 'We have changed the system, now everythings better', 
+            description: '**• Changed password system for modifications**\n\nFor Redux Password now you have to dm the bot. (You need to write **Redux Pass** to the bot.)\n\n• Need help or have a question? Contact <#921883672150413323> they will point you in the appropriate direction for resolving your game.',
             color: '#ffffff',
             image: {url: ''}, 
-            footer: { text: 'Thank you for choosing TopGear!' } ,
+            footer: { text: 'The server Administration wishes everyone a great day' } ,
             author: ''
             
           }]
@@ -57,7 +57,7 @@ module.exports = {
         //TO EDIT BOTS OWN MESSAGE
         //.then(x => x.edit('content'));
     
-        sendMessage.react('<:tg:1080686311062650901>')
+        sendMessage.react('<a:2518discordanimatedlogo:949867372297220126>')
         setTimeout(() => sendMessage.delete(), 1800000)
         
     

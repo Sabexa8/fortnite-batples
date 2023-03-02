@@ -6,14 +6,14 @@ module.exports = {
        const {guild} = member 
        const newMemberEmbed = new Discord.MessageEmbed()
         
-        .setColor("RANDOM")
+        .setColor("#00000")
         .setTitle("")  
-        .setDescription('Joined TopGear `👋` ')
+        .setDescription('Joined LS Mods `💖` ')
         .setAuthor({ name: `${member.user.username}`, iconURL: member.user.avatarURL({ dynamic: true }) })
         .setTimestamp()
-        .setFooter(`Users: ${member.guild.memberCount}`)
+        .setFooter(`USERS: ${member.guild.memberCount}`)
 
-        member.guild.channels.cache.get("1080682124845256704").send({ embeds: [newMemberEmbed] })
+        member.guild.channels.cache.get("950144081126916176").send({ embeds: [newMemberEmbed] })
     }
     }
 
