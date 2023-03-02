@@ -19,7 +19,7 @@ const client = new Client({
 
 //RICH PRESENCE-ACTIVITY
 client.on("ready", async() => {
-client.user.setActivity({ name: "LS Mods", type: "LISTENING" })
+client.user.setActivity({ name: "Top Gear RP", type: "PLAYING" })
 })
 
 const commandFiles = fs.readdirSync("./commands").filter(file => file.endsWith (".js"));

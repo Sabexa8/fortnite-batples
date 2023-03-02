@@ -3,17 +3,17 @@ const { MessageEmbed } = require('discord.js');
 
 module.exports = {
   data: new SlashCommandBuilder()
-  .setName("password")
-  .setDescription("password instructions"),
+  .setName("servinfo")
+  .setDescription("Server Info"),
   async execute(interaction) {
     const discordEmbed = new MessageEmbed()
     .setColor('#ffffff')
-    .setTitle('We have changed password system for modifications')
-    .setDescription('For Redux Password now you have to dm the bot. (You need to write **Redux Pass** to the bot.)\n\nДля пароля Redux теперь вам нужно отправить сообщение боту. (Вам нужно написать **Redux Pass** боту.)')
+    .setTitle('Information about TopGear & How to start playing')
+    .setDescription('In order to join TopGear RP. You can Type "TopGear RP" In the search bar, or you can directly connect by doing. "F8, connect 181.214.240.161:30120". \nThank you for choosing TopGear!')
     
     interaction.reply({
       embeds: [discordEmbed],
-      content:"Here is the information regarding password",
+      content:"Here is the information regarding the server",
       ephemeral: true
     });
   }
