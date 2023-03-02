@@ -48,4 +48,4 @@ for (const file of eventFiles) {
 }
 
 
-client.login(require('./config.json').token);
+client.login(process.env.TOKEN);
